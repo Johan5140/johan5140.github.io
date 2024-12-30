@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+    <head>
+        <title>Teorie</title>
+        <meta charset='utf-8'>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="data/css/main.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+        <script src="data/js/sigfnc.js" type="text/javascript"></script>
+        <script src="data/js/menu.js" type="text/javascript"></script>
+    </head>
+    <body>
+    <div class="menupanel">
+      <div class="menubox">
+         <div class="menulinks" id="menu">
+          <span id="polozkamenu">
+            <a class="polozkamenu" alt="Domů" href="index.html">Domů</a>
+            <a id="aktivni" class="polozkamenu" alt="Teorie" href="teorie.html">Teorie</a>
+            <a class="polozkamenu" href="#">Testy</a>
+        <a href="javascript:void(0);" class="icon" id="dropdown" onclick="openmenu()"></a>
+        </span>
+          </a>
+        </div>
+      </div>
+    </div>
+        <div class="content">
+
+            <div class="teoriecontent">
+              <select name="navesti" id="navesti" required>
+                <option value="" disabled selected hidden>Vyberte návěst k zobrazení</option>
+                 <optgroup label="Základní návěsti">
+                  <option value="stuj">Stůj!</option>
+                  <option value="volno">Volno</option>
+                  <option value="vystraha">Výstraha</option>
+                  <option value="pn">Přivolávací návěst</option>
+                </optgroup>
+                <optgroup label="Rychlostní soustava">
+                <option value="a40avolno">Rychlost 40 km/h a volno</option>
+                  <option value="a40avystraha">Rychlost 40 km/h a výstraha</option>
+                  <option value="a40a40">Rychlost 40 km/h a očekávejte rychlost 40 km/h</option>
+                </optgroup>
+              </select>
+              <button type="button" onclick="signal()" id="selnavest">
+               Vybrat
+              </button>
+              <div class="signalcontainer">
+                <div class="indikator1"></div>
+                <!-- Samotné návěstidlo -->
+                <div class="signal">
+                  <ul id="signal">
+                      <li id="zluta1"></li>
+                      <li id="zelena"></li>
+                      <li id="cervena"></li>
+                      <li id="bila"></li>
+                      <li id="zluta2"></li>
+                  </ul>
+                </div>
+                <!-- Indikátor -->
+                <div class="indikator2"></div>
+              </div>
+              <h4>Název návěsti:</h4>
+              <p id="nazev">----</p>
+              <h4>Vzhled návěsti:</h4>
+              <p id="vzhlednavesti">----</p>
+              <h4>Popis návěsti:</h4>
+              <p id="popisnavesti">----</p>
+            </div>
+            
+        </div>
+    </body>
+</html>
