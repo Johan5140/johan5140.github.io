@@ -273,6 +273,28 @@ margin: 0px auto;
     height: 800px;
     //background-color: #00FF00;
 }
+.teoriecontent p{
+    font-size: 12px;
+}
+table#info {
+margin: 5px 5px 5px 5px;
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+td#nadpis{
+    font-weight: bold;
+}
+table#info td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+table#info tr:nth-child(even) {
+  background-color: #e6e8e6;
+  font-style: italic;
+}
 select#navesti{
     margin: 5px 5px 5px 0px;
     width: 100%;
