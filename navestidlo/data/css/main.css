@@ -279,7 +279,7 @@ select#navesti{
     height:30px;
     border-radius: 0;
     background-color: #ffffff;
-    border: 0.5px solid;
+    border: 1px solid;
     color: #000000;
 }
 select#navesti:hover{
