@@ -280,6 +280,7 @@ select#navesti{
     border-radius: 0;
     background-color: #ffffff;
     border: 0.5px solid;
+    color: #000000;
 }
 select#navesti:hover{
     cursor: pointer;
@@ -291,6 +292,7 @@ button#selnavest{
     height: 30px;
     border: 0;
     float: right;
+    color: #000000;
 }
 button#selnavest:hover{
     cursor: pointer;

@@ -42,6 +42,9 @@ function signal () {
         {
           reload();
           document.getElementById("zelena").style.visibility="visible";
+          document.getElementById("nazev").textContent="Volno";
+        document.getElementById("vzhlednavesti").textContent="Zelené klidné světlo";
+        document.getElementById("popisnavesti").textContent="---";
         }
         if (navest == "vystraha")
         {
