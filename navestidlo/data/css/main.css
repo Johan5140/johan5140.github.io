@@ -14,7 +14,11 @@
   background-color: #aaa;
   overflow: hidden;
 }
-
+.teoriecontent{
+    margin: 0px auto;
+    width: 340px;
+    //background-color: #00FF00;
+}
 /* Style the links inside the navigation bar */
 .menulinks a {
   float: left;
@@ -104,6 +108,23 @@
     margin: 0px auto;
     width: 100%;
     height: 80px;
+}
+*{box-sizing: border-box;}
+.columns{
+  content: "";
+  display: table;
+  clear: both;
+  width: 100%;
+}
+.column{
+float: left;
+  width: 50%;
+  padding: 10px;
+}
+.teoriecontent{
+margin: 0px auto;
+    width: 100%;
+    //background-color: #00FF00;
 }
 .menupanel {
     /*background-color: #d9d9d9;*/
@@ -267,17 +288,11 @@ a.menulink:hover{
     display: inline;
 }
 }
-.teoriecontent{
-margin: 0px auto;
-    width: 340px;
-    height: 800px;
-    //background-color: #00FF00;
-}
 .teoriecontent p{
     font-size: 12px;
 }
 table#info {
-margin: 5px 5px 5px 5px;
+margin: 5px 0px 5px 0px;
   font-family: arial, sans-serif;
   border-collapse: collapse;
   width: 100%;
@@ -303,7 +318,13 @@ select#navesti{
     background-color: #ffffff;
     border: 1px solid;
     color: #000000;
-    -webkit-appearance: none
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    
+    background-image: url("data:image/svg+xml;utf8,<svg fill='black' height='24' viewBox='0 0 24 24' width='24' xmlns='http://www.w3.org/2000/svg'><path d='M7 10l5 5 5-5z'/><path d='M0 0h24v24H0z' fill='none'/></svg>");
+  background-repeat: no-repeat;
+  background-position-x: 100%;
+  background-position-y: 2px;
 }
 select#navesti:hover{
     cursor: pointer;
@@ -393,3 +414,16 @@ background-image: radial-gradient(#f1f50a, #888a2f);
 optgroup{
 font-style: normal;
 }
+.footer {
+margin: 0px auto;
+padding: 0px;
+width: 100%;
+background: #d9d9d9;
+}
+.footercontent{
+padding: 10px;
+}
+.footer p{ 
+overflow: hidden;
+margin: 0px;
+padding: 0px;}

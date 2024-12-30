@@ -33,7 +33,7 @@ function signal () {
         {
           reload();
           document.getElementById("cervena").style.visibility="visible";
-          document.getElementById("nazev").textContent="Stůj";
+          document.getElementById("nazev").textContent="Stůj!";
           document.getElementById("vzhlednavesti").textContent="Červené klidné světlo";
           document.getElementById("popisnavesti").textContent="Zakazuje jízdu vlaku (PMD). Čelo vlaku musí zastavit před hlavním návěstidlem nebo před návěstidlem s návěstí Konec vlakové cesty.";
           
