@@ -281,6 +281,7 @@ select#navesti{
     background-color: #ffffff;
     border: 1px solid;
     color: #000000;
+    -webkit-appearance: none
 }
 select#navesti:hover{
     cursor: pointer;
