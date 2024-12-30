@@ -269,13 +269,13 @@ a.menulink:hover{
 }
 .teoriecontent{
 margin: 0px auto;
-    width: 420px;
+    width: 350px;
     height: 800px;
     //background-color: #00FF00;
 }
 select#navesti{
     margin: 5px 5px 5px 0px;
-    width: 300px;
+    width: 270px;
     height:30px;
     border-radius: 0;
     background-color: #ffffff;

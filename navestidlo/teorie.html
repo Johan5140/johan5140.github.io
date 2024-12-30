@@ -30,10 +30,10 @@
               <select name="navesti" id="navesti" required>
                 <option value="" disabled selected hidden>Vyberte návěst k zobrazení</option>
                  <optgroup label="Základní návěsti">
-                  <option value="stuj">Stůj!</option>
-                  <option value="volno">Volno</option>
-                  <option value="vystraha">Výstraha</option>
-                  <option value="pn">Přivolávací návěst</option>
+                  <option onclick="signal()" value="stuj">Stůj!</option>
+                  <option onclick="signal()" value="volno">Volno</option>
+                  <option onclick="signal()" value="vystraha">Výstraha</option>
+                  <option onclick="signal()" value="pn">Přivolávací návěst</option>
                 </optgroup>
                 <optgroup label="Rychlostní soustava">
                 <option value="a40avolno">Rychlost 40 km/h a volno</option>
@@ -41,9 +41,9 @@
                   <option value="a40a40">Rychlost 40 km/h a očekávejte rychlost 40 km/h</option>
                 </optgroup>
               </select>
-              <button type="button" onclick="signal()" id="selnavest">
+              <!-- <button type="button" onclick="signal()" id="selnavest">
                Vybrat
-              </button>
+              </button> -->
               <div class="signalcontainer">
                 <div class="indikator1"></div>
                 <!-- Samotné návěstidlo -->
