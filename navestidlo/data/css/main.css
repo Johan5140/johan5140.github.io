@@ -189,9 +189,6 @@
     border: none;
   border-bottom: 2px solid black;
 }
-a.loginlink{
-    display: none;
-}
 a.right {
     text-align: center;
     padding: 10px 10px;
@@ -278,7 +275,7 @@ margin: 0px auto;
 }
 select#navesti{
     margin: 5px 5px 5px 0px;
-    width: 100%;
+    width: 300px;
     height:30px;
     border-radius: 0;
     background-color: #ffffff;

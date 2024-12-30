@@ -22,6 +22,9 @@ function reload () {
         document.getElementById("bila").style.visibility="hidden";
         document.getElementById("zluta1").style.visibility="hidden";
         document.getElementById("zluta2").style.visibility="hidden";
+        document.getElementById("nazev").textContent="---";
+        document.getElementById("vzhlednavesti").textContent="---";
+        document.getElementById("popisnavesti").textContent="---";
         clearInterval(t);
 }
 function signal () {
