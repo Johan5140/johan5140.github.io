@@ -1,8 +1,8 @@
 function openmenu() {
   var x = document.getElementById("menu");
-  if (x.className === "menulinks") {
-    x.className += " responsive";
+ if (x.style.display === "block") {
+    x.style.display = "none";
   } else {
-    x.className = "menulinks";
+    x.style.display = "block";
   }
 }

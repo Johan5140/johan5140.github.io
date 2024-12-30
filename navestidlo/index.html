@@ -1,4 +1,4 @@
-<html>
+<!DOCTYPE html>
     <head>
         <title>Hlavní strana</title>
         <meta charset='utf-8'>
@@ -14,14 +14,18 @@
     <body>
     <div class="menupanel">
       <div class="menubox">
-         <div class="menulinks" id="menu">
-          <span id="polozkamenu">
-            <a id="aktivni" class="polozkamenu" alt="Domů" href="index.html">Domů</a>
-            <a class="polozkamenu" alt="Teorie" href="teorie.html">Teorie</a>
-            <a class="polozkamenu" href="testy.html">Testy</a>
-        <a href="javascript:void(0);" class="icon" id="dropdown" onclick="openmenu()"></a>
-        </span>
-          </a>
+         <div class="menulinks">
+            <p id="menu_headline">Menu</p>
+            <div id="menu">
+              <a id="aktivni" alt="Domů" href="index.html">Domů</a>
+              <a alt="Teorie" href="teorie.html">Teorie</a>
+              <a href="testy.html">Testy</a>
+            </div>
+            <a href="javascript:void(0);" class="icon" id="dropdown" onclick="openmenu()">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </a>
         </div>
       </div>
     </div>
