@@ -28,13 +28,25 @@ div.bar {
 .menulinks p{
  margin: 0px;
 }
-.menulinks a,p {
+.logo{
+display:none;}
+.menulinks a {
   color: white;
   padding: 16px 16px;
   text-decoration: none;
   font-size: 17px;
   display: block;
   height: 25px;
+  background-color: #212121;
+}
+.menulinks p {
+  color: white;
+  padding: 16px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+  height: 25px;
+  background-color: #000000;
 }
 .menulinks a:hover {
   background-color: #ddd;
@@ -45,7 +57,7 @@ div.bar {
   position: absolute;
   right: 0;
   top: 0;
-  background-color: #000;
+  background-color: #1a1a1a;
 }
 .menulinks a.icon:hover{
   background-color: #4f4f4f;
@@ -63,7 +75,7 @@ margin: -6px;}
   color: white;
 }
 }
-  @media only screen and (min-width: 1200px){
+@media only screen and (min-width: 1200px){
 .toppanel {
     padding: 0px;
     margin: 0px auto;
@@ -92,16 +104,15 @@ width: 100%;
 }
 .menupanel {
     height: 80px;
-    width: 1200px;
-    margin: 0px auto;
     overflow: hidden;
 }
 .menubox{
     width: 100%;
     display:flex; 
+    margin: 12px 20px 0px 15px;
 }
 .menubox > * {
-    width: calc(100% / 3);
+    width: 100%;
 }
 .right{
     float: right;
@@ -112,19 +123,26 @@ width: 100%;
 .menupanel a{
     text-align: center;
     padding: 10px 10px;
-    margin: 15px 0px 0px 0px;
+    margin: 0px 5px 0px 0px;
     text-decoration: none;
     float: left;
     font-size: 20px;
     color: black;
+    
 }
 .menupanel a:hover{
     box-shadow: inset 0 -4px 0 0 #aaa;
     transition-duration: 0.5s; 
 }
 .menupanel a#aktivni{
-    background-color: #6b6b6b;
-    color: #FFFFFF;
+    box-shadow: inset 0 -4px 0 0 #000;
+}
+a#dropdownicon{
+display:none;
+}
+.headerc{
+margin: 15px 0px;
+
 }
 .stredwebu{
     margin: 0px auto;
@@ -210,6 +228,20 @@ html, body {
   font-variation-settings:
     "wdth" 300;
 }
+.header{
+margin: 0px auto;
+width: 1200px;
+  content: "";
+  display: table;
+  clear: both;}
+.logo{
+float:left;
+width: 200px;
+height: 80px;
+}
+a#dropdown{
+display:none;
+}
 .content{
     padding: 0px;
     margin:0px auto;
@@ -242,9 +274,9 @@ a.menulink{
 }
 .teoriecontent p{
     font-size: 12px;
-};
+}
 table#info {
-margin: 5px 0px 5px 0px;
+  margin: 5px 0px 5px 0px;
   font-family: arial, sans-serif;
   border-collapse: collapse;
   width: 100%;

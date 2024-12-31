@@ -12,20 +12,24 @@
 
     </head>
     <body>
-    <div class="menupanel">
-      <div class="menubox">
-         <div class="menulinks">
-            <p id="menu_headline">Menu</p>
-            <div id="menu">
-              <a id="aktivni" alt="Domů" href="index.html">Domů</a>
-              <a alt="Teorie" href="teorie.html">Teorie</a>
-              <a href="testy.html">Testy</a>
+    <div class="header">
+      <div class="headerc">
+        <div class="menupanel">
+          <div class="menubox">
+             <div class="menulinks">
+                <p id="menu_headline">Menu</p>
+                <div id="menu">
+                  <a id="aktivni" alt="Domů" href="index.html">Domů</a>
+                  <a class="dropd" alt="Teorie" href="teorie.html">Návěsti</a>
+                  <a href="testy.html">Opakování</a>
+                </div>
+                <a href="javascript:void(0);" class="icon" id="dropdown" onclick="openmenu()">
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                </a>
             </div>
-            <a href="javascript:void(0);" class="icon" id="dropdown" onclick="openmenu()">
-                <div class="bar"></div>
-                <div class="bar"></div>
-                <div class="bar"></div>
-            </a>
+          </div>
         </div>
       </div>
     </div>
