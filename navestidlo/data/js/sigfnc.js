@@ -25,6 +25,8 @@ function reload () {
         document.getElementById("nazev").textContent="---";
         document.getElementById("vzhlednavesti").textContent="---";
         document.getElementById("popisnavesti").textContent="---";
+        document.getElementById("1line").style.backgroundColor = "#000000";
+        document.getElementById("2line").style.backgroundColor = "#000000";
         clearInterval(t);
 }
 function signal () {
@@ -73,5 +75,27 @@ function signal () {
           reload();
           document.getElementById("zelena").style.visibility="visible";
           document.getElementById("zluta2").style.visibility="visible";
+        }
+        if (navest == "a60avolno")
+        {
+          reload();
+          document.getElementById("zelena").style.visibility="visible";
+          document.getElementById("zluta2").style.visibility="visible";
+          document.getElementById("1line").style.backgroundColor = "#f1f50a";
+        }
+        if (navest == "a80avolno")
+        {
+          reload();
+          document.getElementById("zelena").style.visibility="visible";
+          document.getElementById("zluta2").style.visibility="visible";
+          document.getElementById("1line").style.backgroundColor = "#16cc47";
+        }
+        if (navest == "a100avolno")
+        {
+          reload();
+          document.getElementById("zelena").style.visibility="visible";
+          document.getElementById("zluta2").style.visibility="visible";
+          document.getElementById("1line").style.backgroundColor = "#16cc47";
+          document.getElementById("2line").style.backgroundColor = "#16cc47";
         }
 }

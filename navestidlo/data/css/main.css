@@ -342,8 +342,11 @@ height: 50px;
 background-color: #000000;
 }
 .indikator2{
+  overflow: hidden;
 width: 70px;
 height: 50px;
+margin: 0px auto;
+padding: 0px;
 background-color: #000000;
 }
 ul#signal
@@ -413,3 +416,8 @@ margin: 0px;
 padding: 0px;
 color:white;
 }
+div.sigline {
+  width: 40px;
+  height: 5px;
+  margin: 13px 15px;
+  padding: 0px;}
