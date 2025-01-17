@@ -97,7 +97,7 @@
 		  <popis>Dovoluje jízdu. V obvodu přilehlých výhybek nejvýše 30 km/h.Návěst znázorněná na pravém návěstidle je návěst dočasně ponechaná v provozu do doby nejbližší rekonstrukce (modernizace) zabezpečovacího zařízení.</popis>
 	  </r30>
 	  <r30avolno>
-		  <xa>x2; x5; x8;x12</xa>
+		  <xa>x2;x5;x8;x12</xa>
 		  <xr></xr>
 		  <blik></blik>
 		  <blikx></blikx>
@@ -110,7 +110,7 @@
 		  <popis>Návěst znázorněná na pravém návěstidle je návěst dočasně ponechaná v provozu do doby nejbližší rekonstrukce (modernizace) zabezpečovacího zařízení.</popis>
 	  </r30avolno>
 	  <r30avystraha>
-		  <xa>x1;x5; x7;x12</xa>
+		  <xa>x1;x5;x7;x12</xa>
 		  <xr></xr>
 		  <blik></blik>
 		  <blikx></blikx>
@@ -202,7 +202,7 @@
 	  </r30a120>
 	  <!-- Rychlost 40 -->
 	  <r40avolno>
-		  <xa>x2; x5</xa>
+		  <xa>x2;x5</xa>
 		  <xr></xr>
 		  <blik></blik>
 		  <blikx></blikx>
