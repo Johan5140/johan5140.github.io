@@ -38,7 +38,7 @@ function reload () {
 function navest (kodnavesti) {
 
     var request = new XMLHttpRequest();
-    request.open("GET", "../xml/data.xml", true);
+    request.open("GET", "/xml/data.xml", true);
     request.send();
     var xml = request.responseXML;
     var ynavest = xml.getElementsByTagName(kodnavesti);
