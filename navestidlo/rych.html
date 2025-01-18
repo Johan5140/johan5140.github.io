@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+    <head>
+        <title>Rychlostní soustava</title>
+        <meta charset='utf-8'>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="data/css/main.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+        <script src="data/js/signal.js" type="text/javascript"></script>
+        <script src="data/js/menu.js" type="text/javascript"></script>
+
+    </head>
+    <body>
+    <div class="topline"></div>
+    <div class="pagebody">
+        <div class="columns">
+          <div class="menubox">
+            <div class="menupanel">
+              <div class="menubox">
+                 <div class="menulinks">
+                    <p id="menu_headline">Menu</p>
+                    <div id="menu">
+                      <h4>Hlavní nabídka</h4>
+                      <a href="index.html"><img src="data/img/home.png">Domů</a>
+                      <a href="zaknav.html"><img src="data/img/zaklnavic.png">Základní návěsti</a>
+                      <a id="aktivni" href="rych.html"><img src="data/img/rychsoustaic.png">Rychlostní soustava</a>
+                      <a href="oznp.html"><img src="data/img/oznpicn.png">Označovací pásy</a>
+                      <a href="neprnav.html"><img src="data/img/neprnavic.png">Neproměnná návěstidla</a>
+                      <a href="testy.html">Opakování</a>
+                    </div>
+                    <a href="javascript:void(0);" class="icon" id="dropdown" onclick="openmenu()">
+                        <div class="bar"></div>
+                        <div class="bar"></div>
+                        <div class="bar"></div>
+                    </a>
+                </div>
+              </div>
+            </div>
+          </div>
+            <div class="content">
+    
+                <div class="teoriecontent">
+                <h5>Rychlost
+                  <select onchange="cmbbxs()" name="navesti" id="rych1" required>
+                    <option value="" selected>---</option>
+                    <option value="r30">30 km/h</option>
+                    <option value="r40">40 km/h</option>
+                    <option value="r50">50 km/h</option>
+                    <option value="r60">60 km/h</option>
+                    <option value="r80">80 km/h</option>
+                    <option value="r100">100 km/h</option>
+                    <option value="r120">120 km/h</option>
+
+                    
+                  </select>a
+                  <select onchange="cmbbxs()" name="navesti" id="rych2" required>
+                    <option value="" selected>---</option>
+                    <option value="avolno">volno</option>
+                      <option value="avystraha">výstraha</option>
+                      <option value="aopvystraha">opakování návěsti výstraha</option>
+                      <option value="a40">očekávejte rychlost 40 km/h</option>
+                      <option value="a60">očekávejte rychlost 60 km/h</option>
+                      <option value="a80">očekávejte rychlost 80 km/h</option>
+                      <option value="a100">očekávejte rychlost 100 km/h</option>
+                      <option value="a120">očekávejte rychlost 120 km/h</option>
+                  </select>
+                </h5>
+                  <div class="columns">
+                    <div class="column">
+                        <div class="signalcontainer">
+                            <div class="xleft">
+                                <div class="xsignal">
+                                    <div class="indikator1">
+                                        <h1 class="horniidc"></h1>
+                                    </div>
+                                    <!-- Samotné návěstidlo -->
+                                    <div class="signal">
+                                        <ul id="signal">
+                                            <li class="x1"></li>
+                                            <li class="x2"></li>
+                                            <li class="x3"></li>
+                                            <li class="x4"></li>
+                                            <li class="x6"></li>
+                                            <li class="x5"></li>
+                                        </ul>
+                                    </div>
+                                    <!-- Indikátor -->
+                                    <div class="indikator2">
+                                        <div class="sigline" id="1line"></div>
+                                        <h1 id="dolniidc"></h1>
+                                        <div class="sigline" id="2line"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="xright">
+                                <div class="xsignal">
+                                    <div class="indikator1">
+                                        <h1 class="horniidc"></h1>
+                                    </div>
+                                    <!-- Samotné návěstidlo -->
+                                    <div class="signal">
+                                        <ul id="signal">
+                                            <li class="x1"></li>
+                                            <li class="x2"></li>
+                                            <li class="x3"></li>
+                                            <li class="x4"></li>
+                                            <li class="x6"></li>
+                                            <li class="x5"></li>
+                                        </ul>
+                                    </div>
+                                    <!-- Indikátor -->
+                                    <div class="indikator2">
+                                        <div class="vertlinel" id="2line"></div>
+                                        <div class="vertliner" id="1line"></div>
+                                        <h1 id="dolniidc3">3</h1>
+                                        <div class="vertline" id="1line"></div>
+                                    </div>
+                                </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="column">
+                      <table id="info">
+                        <tr>
+                          <td id="nadpis">Název návěsti:</td>
+                        </tr>
+                        <tr>
+                          <td id="nazev">----</td>
+                        </tr>
+                          <td id="nadpis">Popis návěsti:</td>
+                        </tr>
+                        <tr>
+                          <td id="popisnavesti">----</td>
+                        </tr>
+                    </table>
+                  </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+                <div class=footer>
+                    <div class="footercontent">
+                        <p>Tuto stránku vytváří: <a href="https://github.com/Johan5140">Johan5140</a></p> 
+                    </div>
+                </div>
+            </div>
+                
+        </body>
+    </html>
+    

@@ -13,7 +13,12 @@
 			  <linka1></linka1>
 			  <linka2></linka2>
             <svetla>Červené klidné světlo</svetla>
-            <popis>Zakazuje strojvedoucímu jízdu vlaku (PMD). Čelo jedoucího vlaku (PMD) musí zastavit 10 m (odhadem) před hlavním návěstidlem. Tam, kde hlavní návěstidlo není přímo u koleje, musí čelo vlaku zastavit před návěstidlem s návěstí Konec vlakové cesty.</popis>
+            <popis>
+			<![CDATA[Zakazuje strojvedoucímu jízdu vlaku (PMD).<br/><br/>
+
+                 Čelo jedoucího vlaku (PMD) musí zastavit 10 m (odhadem) před hlavním návěstidlem. Tam, kde hlavní návěstidlo není přímo u koleje, musí čelo vlaku zastavit před návěstidlem s návěstí Konec vlakové cesty.]]>
+			
+			</popis>
         </stuj>
 	  <volno>
 		  <xa>x2</xa>
@@ -39,7 +44,12 @@
 		<linka2></linka2>
 		  <nazev>Přivolávací návěst</nazev>
 		  <svetla>Pomalu blikající bílé světlo</svetla>
-		<popis>PN je návěstí hlavního návěstidla, která umožňuje jízdu kolem návěstidla, u kterého nelze rozsvítit dovolující návěst vyjádřenou jedním nebo dvěma světly.&#x0a;PN na vjezdových, cestových nebo odjezdových návěstidlech strojvedoucímu vlaku přikazuje:&#x0a; a) jízdu podle rozhledových poměrů&#x0a; b) jet v obvodu výhybek přilehlých k hlavnímu návěstidlu nejvýše rychlostí 30 km/h, pokud je návěstidlo označeno indikátorovou tabulkou s číslicí „3“ nebo je-li v TJŘ u příslušné stanice značka „3>“ (vyjadřující snížení rychlosti v obvodu výhybek přilehlých k hlavnímu návěstidlu při jízdě na PN na rychlost 30 km/h)
+		<popis>
+		<![CDATA[PN je návěstí hlavního návěstidla, která umožňuje jízdu kolem návěstidla, u kterého nelze rozsvítit dovolující návěst vyjádřenou jedním nebo dvěma světly. <br/><br/>
+		PN na vjezdových, cestových nebo odjezdových návěstidlech strojvedoucímu vlaku přikazuje: <br/>
+		<b> a) </b>jízdu podle rozhledových poměrů <br/>
+        <b> b)</b> jet v obvodu výhybek přilehlých k hlavnímu návěstidlu nejvýše rychlostí 30 km/h, pokud je návěstidlo označeno indikátorovou tabulkou s číslicí „3“ nebo je-li v TJŘ u příslušné stanice značka „3>“ (vyjadřující snížení rychlosti v obvodu výhybek přilehlých k hlavnímu návěstidlu při jízdě na PN na rychlost 30 km/h)]]>
+		
 		</popis>
 	  </PN>
   	<PD>
@@ -53,7 +63,10 @@
 		<linka2></linka2>
 		  <nazev>Posun dovolen</nazev>
 		  <svetla>Klidné bílé světlo</svetla>
-		  <popis>Dovoluje posun; je-li na návěstidle platném jen pro jednu kolej, informuje o postavené posunové cestě za tímto návěstidlem a je souhlasem k zahájení posunu.</popis>
+		  <popis>
+		  <![CDATA[Dovoluje posun; <br/><br/>
+                 je-li na návěstidle platném jen pro jednu kolej, informuje o postavené posunové cestě za tímto návěstidlem a je souhlasem k zahájení posunu.]]>
+		  </popis>
 	  </PD>
 	  <PZ>
 		  <xa>x6</xa>
@@ -66,7 +79,11 @@
 		  <linka2></linka2>
 		  <nazev>Posun zakázán</nazev>
 		  <svetla>Klidné modré světlo</svetla>
-		  <popis>Zakazuje posun; čelo posunového dílu musí zastavit ještě před návěstidlem. Kde takové návěstidlo není přímo u koleje, musí čelo posunového dílu zastavit před námezníkem (hrotem jazyka výhybky, výkolejkou) na konci příslušné koleje.</popis>
+		  <popis>
+		  <![CDATA[Zakazuje posun; <br/><br/>
+                 čelo posunového dílu musí zastavit ještě před návěstidlem. Kde takové návěstidlo není přímo u koleje, musí čelo posunového dílu zastavit před námezníkem (hrotem jazyka výhybky, výkolejkou) na konci příslušné koleje.]]>
+		  
+		  </popis>
 	  </PZ>
 	<vystraha>
 		  <xa>x1</xa>
@@ -84,7 +101,7 @@
 	  <!-- Rychlostní soustava -->
 	  <!-- Rychlost 30 -->
 	  <r30>
-		  <xa>x5;x12</xa>
+		  <xa>x5</xa>
 		  <xr></xr>
 		  <blik></blik>
 		  <blikx></blikx>
@@ -94,10 +111,14 @@
 		  <linka2></linka2>
 		  <nazev>Rychlost 30 km/h</nazev>
 		  <svetla>Žluté světlo doplněné pod ním bílou číslicí „3“ nebo luté světlo doplněné pod ním svítící žlutou číslicí „3“ mezi dvěma žlutými svislými pruhy</svetla>
-		  <popis>Dovoluje jízdu. V obvodu přilehlých výhybek nejvýše 30 km/h.Návěst znázorněná na pravém návěstidle je návěst dočasně ponechaná v provozu do doby nejbližší rekonstrukce (modernizace) zabezpečovacího zařízení.</popis>
+		  <popis>		  
+		  <![CDATA[Dovoluje jízdu. <br/><br/>
+		  V obvodu přilehlých výhybek nejvýše 30 km/h<br/><br/>
+                 Návěst znázorněná na pravém návěstidle je návěst dočasně ponechaná v provozu do doby nejbližší rekonstrukce (modernizace) zabezpečovacího zařízení.]]>
+		  </popis>		  
 	  </r30>
 	  <r30avolno>
-		  <xa>x2;x5;x8;x12</xa>
+		  <xa>x2;x5</xa>
 		  <xr></xr>
 		  <blik></blik>
 		  <blikx></blikx>
@@ -110,7 +131,7 @@
 		  <popis>Návěst znázorněná na pravém návěstidle je návěst dočasně ponechaná v provozu do doby nejbližší rekonstrukce (modernizace) zabezpečovacího zařízení.</popis>
 	  </r30avolno>
 	  <r30avystraha>
-		  <xa>x1;x5;x7;x12</xa>
+		  <xa>x1;x5</xa>
 		  <xr></xr>
 		  <blik></blik>
 		  <blikx></blikx>
@@ -123,7 +144,7 @@
 		  <popis>Návěst znázorněná na pravém návěstidle je návěst dočasně ponechaná v provozu do doby nejbližší rekonstrukce (modernizace) zabezpečovacího zařízení.</popis>
 	  </r30avystraha>
 	  <r30aopvystraha>
-		  <xa>x1;x4;x5;x7;x11;x12</xa>
+		  <xa>x1;x4;x5</xa>
 		  <xr></xr>
 		  <blik></blik>
 		  <blikx></blikx>
@@ -136,7 +157,7 @@
 		  <popis>Návěst znázorněná na pravém návěstidle je návěst dočasně ponechaná v provozu do doby nejbližší rekonstrukce (modernizace) zabezpečovacího zařízení.</popis>
 	  </r30aopvystraha>
 	  <r30a40>
-		  <xa>x5;x12</xa>
+		  <xa>x5</xa>
 		  <xr></xr>
 		  <blik>pomalu</blik>
 		  <blikx>x1</blikx>
@@ -146,10 +167,12 @@
 		  <linka2></linka2>
 		  <nazev>Rychlost 30 km/h a očekávejte rychlost 40 km/h</nazev>
 		  <svetla></svetla>
-		  <popis>Návěst znázorněná na pravém návěstidle je návěst dočasně ponechaná v provozu do doby nejbližší rekonstrukce (modernizace) zabezpečovacího zařízení.&#x0a;Od následujícího hlavního návěstidla maximálně 40 km/h.</popis>
+		  <popis><![CDATA[Návěst znázorněná na pravém návěstidle je návěst dočasně ponechaná v provozu do doby nejbližší rekonstrukce (modernizace) zabezpečovacího zařízení. <br/><br/>
+                  V obvodu přilehlých výhybek nejvýše 30 km/h, od následujícího hlavního návěstidla maximálně 40 km/h.]]>
+		  </popis>
 	  </r30a40>
 	  <r30a60>
-		  <xa>x5;x12</xa>
+		  <xa>x5</xa>
 		  <xr></xr>
 		  <blik>rychle</blik>
 		  <blikx>x1</blikx>
@@ -159,10 +182,12 @@
 		  <linka2></linka2>
 		  <nazev>Rychlost 30 km/h a očekávejte rychlost 60 km/h</nazev>
 		  <svetla></svetla>
-		  <popis>Návěst znázorněná na pravém návěstidle je návěst dočasně ponechaná v provozu do doby nejbližší rekonstrukce (modernizace) zabezpečovacího zařízení.&#x0a;Od následujícího hlavního návěstidla maximálně 60 km/h.</popis>
+		  <popis><![CDATA[Návěst znázorněná na pravém návěstidle je návěst dočasně ponechaná v provozu do doby nejbližší rekonstrukce (modernizace) zabezpečovacího zařízení. <br/><br/>
+                 V obvodu přilehlých výhybek nejvýše 30 km/h, od následujícího hlavního návěstidla maximálně 60 km/h.]]>
+		</popis>
 	  </r30a60>
 	  <r30a80>
-		  <xa>x5;x12</xa>
+		  <xa>x5</xa>
 		  <xr></xr>
 		  <blik>pomalu</blik>
 		  <blikx>x2</blikx>
@@ -172,10 +197,11 @@
 		  <linka2></linka2>
 		  <nazev>Rychlost 30 km/h a očekávejte rychlost 80 km/h</nazev>
 		  <svetla></svetla>
-		  <popis>Návěst znázorněná na pravém návěstidle je návěst dočasně ponechaná v provozu do doby nejbližší rekonstrukce (modernizace) zabezpečovacího zařízení.&#x0a;Od následujícího hlavního návěstidla maximálně 80 km/h.</popis>
+		  <popis><![CDATA[Návěst znázorněná na pravém návěstidle je návěst dočasně ponechaná v provozu do doby nejbližší rekonstrukce (modernizace) zabezpečovacího zařízení. <br/><br/>
+                 V obvodu přilehlých výhybek nejvýše 30 km/h, od následujícího hlavního návěstidla maximálně 80 km/h.]]></popis>
 	  </r30a80>
 	  <r30a100>
-		  <xa>x5;x12</xa>
+		  <xa>x5</xa>
 		  <xr></xr>
 		  <blik>rychle</blik>
 		  <blikx>x2</blikx>
@@ -185,10 +211,11 @@
 		  <linka2></linka2>
 		  <nazev>Rychlost 30 km/h a očekávejte rychlost 100 km/h</nazev>
 		  <svetla></svetla>
-		  <popis>Návěst znázorněná na pravém návěstidle je návěst dočasně ponechaná v provozu do doby nejbližší rekonstrukce (modernizace) zabezpečovacího zařízení.&#x0a;Od následujícího hlavního návěstidla maximálně 100 km/h.</popis>
+		  <popis><![CDATA[Návěst znázorněná na pravém návěstidle je návěst dočasně ponechaná v provozu do doby nejbližší rekonstrukce (modernizace) zabezpečovacího zařízení. <br/><br/>
+                 V obvodu přilehlých výhybek nejvýše 30 km/h, od následujícího hlavního návěstidla maximálně 100 km/h.]]></popis>
 	  </r30a100>
 	  <r30a120>
-		  <xa>x5;x12</xa>
+		  <xa>x5</xa>
 		  <xr>12</xr>
 		  <blik>rychle</blik>
 		  <blikx>x2</blikx>
@@ -198,7 +225,8 @@
 		  <linka2></linka2>
 		  <nazev>Rychlost 30 km/h a očekávejte rychlost 100 km/h</nazev>
 		  <svetla></svetla>
-		  <popis>Návěst znázorněná na pravém návěstidle je návěst dočasně ponechaná v provozu do doby nejbližší rekonstrukce (modernizace) zabezpečovacího zařízení.&#x0a;Od následujícího hlavního návěstidla maximálně 120 km/h.</popis>
+		  <popis><![CDATA[Návěst znázorněná na pravém návěstidle je návěst dočasně ponechaná v provozu do doby nejbližší rekonstrukce (modernizace) zabezpečovacího zařízení. <br/><br/>
+                 V obvodu přilehlých výhybek nejvýše 30 km/h, od následujícího hlavního návěstidla maximálně 120 km/h.]]></popis>
 	  </r30a120>
 	  <!-- Rychlost 40 -->
 	  <r40avolno>
@@ -290,7 +318,10 @@
 		<linka2></linka2>
 		  <nazev>Rychlost 40 km/h a očekávejte rychlost 60 km/h</nazev>
 		  <svetla>Žluté světlo a nad ním žluté rychle blikající světlo</svetla>
-		  <popis>Dovoluje jízdu. V obvodu přilehlých výhybek nejvýše 40 km/h, od následujícího hlavního návěstidla maximálně 60 km/h.</popis>
+		  <popis>
+		  <![CDATA[Dovoluje jízdu. <br/><br/>
+                 V obvodu přilehlých výhybek nejvýše 40 km/h, od následujícího hlavního návěstidla maximálně 60 km/h.]]>
+		  </popis>
 	  </r40a60>
 	  <r40a80>
 		  <xa>x5</xa>
@@ -303,7 +334,8 @@
 		  <linka2></linka2>
 		  <nazev>Rychlost 40 km/h a očekávejte rychlost 80 km/h</nazev>
 		  <svetla>Žluté světlo a nad ním zelené pomalu blikající světlo</svetla>
-		  <popis>Dovoluje jízdu. V obvodu přilehlých výhybek nejvýše 40 km/h, od následujícího hlavního návěstidla maximálně 80 km/h.</popis>
+		  <popis><![CDATA[Dovoluje jízdu. <br/><br/>
+                 V obvodu přilehlých výhybek nejvýše 40 km/h, od následujícího hlavního návěstidla maximálně 80 km/h.]]></popis>
 	  </r40a80>
 	  <r40a120>
 		  <xa>x5</xa>
@@ -316,7 +348,8 @@
 		  <linka2></linka2>
 		  <nazev>Rychlost 40 km/h a očekávejte rychlost 120 km/h</nazev>
 		  <svetla>Žluté světlo, nad ním zelené rychle blikající světlo a nad ním svítící žluté číslo „12“</svetla>
-		  <popis>Dovoluje jízdu. V obvodu přilehlých výhybek nejvýše 40 km/h, od následujícího hlavního návěstidla maximálně 120 km/h.</popis>
+		  <popis><![CDATA[Dovoluje jízdu. <br/><br/>
+                 V obvodu přilehlých výhybek nejvýše 40 km/h, od následujícího hlavního návěstidla maximálně 120 km/h.]]></popis>
 	  </r40a120>
 	  <!-- Rychlost 50 -->
 	  <r50>

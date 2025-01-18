@@ -1,6 +1,6 @@
 <!DOCTYPE html>
     <head>
-        <title>Návěsti</title>
+        <title>Návěsti na neproměnných návěstidlech</title>
         <meta charset='utf-8'>
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="data/css/main.css">
@@ -12,28 +12,31 @@
     </head>
     <body>
     <div class="topline"></div>
-     <div class="header">
-      <div class="headerc">
-        <div class="menupanel">
+    <div class="pagebody">
+        <div class="columns">
           <div class="menubox">
-             <div class="menulinks">
-                <p id="menu_headline">Menu</p>
-                <div id="menu">
-                  <a alt="Domů" href="index.html">Domů</a>
-                  <a alt="Teorie" href="teorie.html">Světelná návěstidla</a>
-                  <a id="aktivni" alt="Teorie" href="teorie2.html">Ostatní návěstidla</a>
-                  <a href="testy.html">Opakování</a>
+            <div class="menupanel">
+              <div class="menubox">
+                 <div class="menulinks">
+                    <p id="menu_headline">Menu</p>
+                    <div id="menu">
+                      <h4>Hlavní nabídka</h4>
+                      <a href="index.html"><img src="data/img/home.png">Domů</a>
+                      <a href="zaknav.html"><img src="data/img/zaklnavic.png">Základní návěsti</a>
+                      <a href="rych.html"><img src="data/img/rychsoustaic.png">Rychlostní soustava</a>
+                      <a href="oznp.html"><img src="data/img/oznpicn.png">Označovací pásy</a>
+                      <a id="aktivni" href="neprnav.html"><img src="data/img/neprnavic.png">Neproměnná návěstidla</a>
+                      <a href="testy.html">Opakování</a>
+                    </div>
+                    <a href="javascript:void(0);" class="icon" id="dropdown" onclick="openmenu()">
+                        <div class="bar"></div>
+                        <div class="bar"></div>
+                        <div class="bar"></div>
+                    </a>
                 </div>
-                <a href="javascript:void(0);" class="icon" id="dropdown" onclick="openmenu()">
-                    <div class="bar"></div>
-                    <div class="bar"></div>
-                    <div class="bar"></div>
-                </a>
+              </div>
             </div>
           </div>
-        </div>
-          </div>
-        </div>
          <div class="content">
           <ul class="navestilist">
             <li>
@@ -109,7 +112,9 @@
               </div>
             </li> 
           </ul> 
-            
+        </div>  
+    </div>
+</div>
           <div class=footer>
                 <div class="footercontent">
                     <p>Tuto stránku vytváří: <a href="https://github.com/Johan5140">Johan5140</a></p> 
