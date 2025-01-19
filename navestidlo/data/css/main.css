@@ -21,7 +21,7 @@ div.bar {
   overflow: hidden;
   position: relative;
 }
-.menulinks h4, img{
+.menulinks h4, img#menui{
   display: none;
 }
 select#navesti{
@@ -58,6 +58,9 @@ list-style:none;
 }
 #navestilist li{
 border-bottom: 1px solid;
+}
+#navestilist img{
+  
 }
 .imagecol{
 float:left;
@@ -109,7 +112,9 @@ select#rych1:hover,select#rych2:hover{
   cursor: pointer;
   background-color: #f2f2f2;
 }
-
+.content h3#nadpis{
+  text-align: center;
+}
 
 .menulinks p{
  margin: 0px;
