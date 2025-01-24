@@ -3,7 +3,8 @@ var navests;
 var navestk;
 var ynavest;
 const xx = document.getElementsByClassName("sigline");
-const xy = document.getElementsByClassName("xright");
+const xy = document.getElementById("xright");
+const xxc = document.getElementById("xleft");
 
 const xy1 = document.getElementsByClassName("x1");
 const xy2 = document.getElementsByClassName("x2");
@@ -80,16 +81,20 @@ function reload () {
         xy7[y].textContent="";
 
       }
+
+        document.getElementById("xleft").style.removeProperty('float');
         document.getElementById("dolniidc").textContent="";
         document.getElementById("nazev").textContent="---";
         document.getElementById("popisnavesti").textContent="---";
         document.getElementById("1line").style.backgroundColor = "#000000";
         document.getElementById("2line").style.backgroundColor = "#000000";
+        document.getElementById("xright").style.display = "none";
+        document.getElementById("xright").style.visibility="Hidden";
         for (var y=0;y<xx.length;y++){
           xx[y].style.visibility="Hidden";
   
         }
-        xy[0].style.visibility="Hidden";
+        document.getElementById("xright").style.visibility="Hidden";
         clearInterval(t);
 }
 function loadXMLDoc() {
@@ -185,7 +190,9 @@ function navest (kodnavesti) {
 
             }
             if (idcd == "3"){
-              xy[0].style.visibility="Visible";
+              document.getElementById("xleft").style.float = "left";
+              document.getElementById("xright").style.display = "block";
+              document.getElementById("xright").style.visibility="Visible";
               const myArray = xn.split(";");
               for (var m = 0, len = myArray.length; m < len; m++) {
                 const xu = document.getElementsByClassName(myArray[m]); 
