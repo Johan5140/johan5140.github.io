@@ -1,15 +1,16 @@
 <!DOCTYPE html>
     <head>
-        <title>Hlavní strana</title>
+        <title>Návěstidlo</title>
         <meta charset='utf-8'>
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="data/css/main.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-        <script src="data/js/sigfnc.js" type="text/javascript"></script>
+        <script src="data/js/signal.js" type="text/javascript"></script>
         <script src="data/js/menu.js" type="text/javascript"></script>
-
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+        <script src="data/js/nav.js" type="text/javascript" onload="javascript:menuk('main')"></script>
     </head>
     <body>
     <div class="topline"></div>
@@ -22,14 +23,14 @@
                   <p id="menu_headline">Menu</p>
                   <div id="menu">
                     <h4>Hlavní nabídka</h4>
-                    <a id="aktivni" href="index.html"><img id="menui" src="data/img/home.png">Domů</a>
-                    <a href="zaknav.html"><img id="menui" src="data/img/zaklnavic.png">Základní návěsti</a>
-                    <a href="rych.html"><img id="menui" src="data/img/rychsoustaic.png">Rychlostní soustava</a>
-                    <a href="oznp.html"><img id="menui" src="data/img/oznpicn.png">Označovací pásy</a>
-                    <a href="neprnav.html"><img id="menui" src="data/img/neprnavic.png">Neproměnná návěstidla</a>
-                    <a href="testy.html">Opakování</a>
+                    <a id="aktivni"  name="main" onclick="javascript:menuk('main');"><img id="menui" src="data/img/home.png">Domů</a>
+                    <a name="zaknav" onclick="javascript:menuk('zaknav');"><img id="menui" src="data/img/zaklnavic.png">Základní návěsti</a>
+                    <a name="rych"  onclick="javascript:menuk('rych');"><img id="menui" src="data/img/rychsoustaic.png">Rychlostní soustava</a>
+                    <a name="oznp" onclick="javascript:menuk('oznp');"><img id="menui" src="data/img/oznpicn.png">Označovací pásy</a>
+                    <a name="neprnav"  onclick="javascript:menuk('neprnav');"><img id="menui" src="data/img/neprnavic.png">Neproměnná návěstidla</a>
+                    <a name="testy" onclick="javascript:menuk('testy');">Opakování</a>
                   </div>
-                  <a href="javascript:void(0);" class="icon" id="dropdown" onclick="openmenu()">
+                  <a href="javascript:void(0);" class="icon dropdownicon" id="dropdown" onclick="openmenu()">
                       <div class="bar"></div>
                       <div class="bar"></div>
                       <div class="bar"></div>
@@ -38,8 +39,9 @@
             </div>
           </div>
         </div>
-        <div class="content">
-          <h3 id="nadpis">Na této stránce se pracuje!</h3>     
+        <div id="content">
+          
+            
         </div>
       </div>
       </div> 

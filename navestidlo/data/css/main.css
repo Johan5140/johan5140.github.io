@@ -112,16 +112,18 @@ select#rych1:hover,select#rych2:hover{
   cursor: pointer;
   background-color: #f2f2f2;
 }
-.content h3#nadpis{
+#content h3#nadpis{
   text-align: center;
 }
-
+#xcontent h3#nadpis{
+  text-align: center;
+}
 .menulinks p{
  margin: 0px;
 }
 .logo{
 display:none;}
-.menulinks a {
+.menupanel a {
   color: white;
   padding: 16px 16px;
   text-decoration: none;
@@ -129,8 +131,9 @@ display:none;}
   display: block;
   height: 25px;
   background-color: #212121;
+  cursor:pointer;
 }
-.menulinks p {
+.menupanel p {
   color: white;
   padding: 16px 16px;
   text-decoration: none;
@@ -139,7 +142,7 @@ display:none;}
   height: 25px;
   background-color: #000000;
 }
-.menulinks a:hover {
+.menulinks a.menul:hover {
   background-color: #ddd;
   color: black;
 }
@@ -220,7 +223,10 @@ margin: -6px;}
   height: 15px;
   background-color: #000;
 }
-.content h3#nadpis{
+#content h3#nadpis{
+  text-align: center;
+}
+#xcontent h3#nadpis{
   text-align: center;
 }
 #menu{
@@ -301,7 +307,7 @@ overflow: hidden;
 .desktopmenu #links{
     display: block;
 }
-.menupanel a,h4{
+.menupanel a{
   width: 100%;
     text-align: center;
     padding: 10px 5px 10px 0px;
@@ -310,7 +316,7 @@ overflow: hidden;
     float: left;
     font-size: 15px;
     color: black;
-
+cursor: pointer;
     display: flex;
    align-items:center;
     
@@ -329,7 +335,7 @@ overflow: hidden;
 .menupanel a#aktivni{
     background-color: #e0e0e0;
 }
-a#dropdownicon{
+a.dropdownicon{
 display:none;
 }
 .headerc{
@@ -434,7 +440,7 @@ height: 80px;
 a#dropdown{
 display:none;
 }
-.content{
+#content{
     padding: 0px;
     float:right;
     width: 950px;
