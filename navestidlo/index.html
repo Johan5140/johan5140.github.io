@@ -13,30 +13,23 @@
         <script src="data/js/nav.js" type="text/javascript" onload="javascript:menuk('main')"></script>
     </head>
     <body>
-    <div class="topline"></div>
+    <div class="topline">        
+      <button href="javascript:void(0);" class="icon dropdownicon" id="dropdown" onclick="openmenu()">☰ Menu</button>
+    </div>
     <div class="pagebody">
       <div class="columns">
         <div class="menubox">
-          <div class="menupanel">
-            <div class="menubox">
-               <div class="menulinks">
-                  <p id="menu_headline">Menu</p>
+               <div id="menulinks">
                   <div id="menu">
-                    <h4>Hlavní nabídka</h4>
+                   <!-- <h4>Hlavní nabídka</h4> -->
                     <a id="aktivni"  name="main" onclick="javascript:menuk('main');"><img id="menui" src="data/img/home.png">Domů</a>
                     <a name="zaknav" onclick="javascript:menuk('zaknav');"><img id="menui" src="data/img/zaklnavic.png">Základní návěsti</a>
                     <a name="rych"  onclick="javascript:menuk('rych');"><img id="menui" src="data/img/rychsoustaic.png">Rychlostní soustava</a>
                     <a name="oznp" onclick="javascript:menuk('oznp');"><img id="menui" src="data/img/oznpicn.png">Označovací pásy</a>
                     <a name="neprnav"  onclick="javascript:menuk('neprnav');"><img id="menui" src="data/img/neprnavic.png">Neproměnná návěstidla</a>
-                    <a name="testy" onclick="javascript:menuk('testy');">Opakování</a>
+                    <a name="testy" onclick="javascript:menuk('testy');"><img id="menui" src="data/img/testy.png">Opakování</a>
                   </div>
-                  <a href="javascript:void(0);" class="icon dropdownicon" id="dropdown" onclick="openmenu()">
-                      <div class="bar"></div>
-                      <div class="bar"></div>
-                      <div class="bar"></div>
-                  </a>
               </div>
-            </div>
           </div>
         </div>
         <div id="content">

@@ -1,37 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
 <data xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <navesti>
-	  <all>
-		  <strngs>hk; kvc1; kvc2; hpd;</strngs>
-	  </all>
-	  <hk>
+	  <xn>
 		  <nazev>Návěst Hranice koleje</nazev>
 		  <navestidlo>Námezník</navestidlo>
 		  <vzhled>(bílý vodorovný trámec s černými pruhy před bílým šikmým ukončením)</vzhled>
 		  <popis>-------------</popis>
 		  <ico>nameznik</ico>
-	  </hk>
-	  <kvc1>
+	  </xn>
+	  <xn>
 		  <nazev>Návěst Konec vlakové cesty a návěst Hranice koleje</nazev>
 		  <navestidlo>Námezník</navestidlo>
 		  <vzhled>(bílý vodorovný trámec s černými pruhy před bílým šikmým ukončením, v jehož střední části je přední polovina bílého obdélníku postaveného na delší straně, vstřícného k zastavujícímu vlaku, červená)</vzhled>
 		  <popis>------------</popis>
 		  <ico>nameznikkonec</ico>
 	  
-  		</kvc1>
-	  <kvc2>
+  		</xn>
+	  <xn>
 		  <nazev>Návěst Konec vlakové cesty</nazev>
 		  <navestidlo>Koncovník</navestidlo>
 		  <vzhled>(bílý vodorovný trámec, na němž je přední polovina bílého obdélníku postaveného na delší straně, vstřícného k zastavujícímu vlaku, červená)</vzhled>
 		  <popis>------------</popis>
 		  <ico>koncovnik</ico>
-	  </kvc2>
-	  <hpd>
+	  </xn>
+	  <xn>
 		  <nazev>Návěst Hranice provozovatele dráhy</nazev>
 		  <navestidlo>Hraničník</navestidlo>
 		  <vzhled>(žlutý vodorovný trámec se šikmým ukončením a s černým pruhem uprostřed)</vzhled>
 		  <popis>------------</popis>
 		  <ico>hranicnik</ico>
-	  </hpd>
-    </navesti>	
+	  </xn>
 </data>

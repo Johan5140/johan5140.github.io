@@ -8,17 +8,9 @@ function vypsatnavesti () {
           const xmlDoc = parser.
               parseFromString(xmlString, "text/xml");
   
-          const xnavesti = xmlDoc.
-          querySelectorAll("all");
-          xnavesti.forEach((xstrngs) => {
-          const strngs = xstrngs.
-              querySelector("strngs").textContent;
-              const ystrngs = strngs.split(";");
-              xhtmlx = document.getElementById('navestilist');
-              for (i=0;i<ystrngs.length;i++){
-                  //console.log(ystrngs[i])
-                  const xnavesti = xmlDoc.
-                  querySelectorAll(ystrngs[i]);
+          const xnavesti = xmlDoc.querySelectorAll("xn");
+            xhtmlx = document.getElementById('navestilist');
+                  console.log(xnavesti[i])
                   xnavesti.forEach((xstrngs) => {
                       const nazev = xstrngs.
                       querySelector("nazev").textContent;
@@ -36,9 +28,7 @@ function vypsatnavesti () {
                       xhtmlx.innerHTML = output;
                       
               })
-      }});
-      });
-      }
+      })};
 function menuk(page) {
     var xa = fetch('data/stranky/'+page+'.html')
      .then(response => response.text())  
@@ -53,5 +43,12 @@ function menuk(page) {
      s.id = "aktivni";
      if(page == "neprnav"){
      vypsatnavesti();
+    }
+    let swidth = screen.width;
+    if(swidth < "1200"){
+        var mw = document.getElementsByClassName("menubox")[0].style.width;
+        if (mw === "250px"){
+         closeNav()
+        }
     }
    }
